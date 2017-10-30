@@ -75,6 +75,9 @@
     <Compile Include="ControlsSampleWindow.xaml.cs">
       <DependentUpon>ControlsSampleWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DataBindingTwoWaySampleWindow.xaml.cs">
+      <DependentUpon>DataBindingTwoWaySampleWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DataBindingOneWaySampleWindow.xaml.cs">
       <DependentUpon>DataBindingOneWaySampleWindow.xaml</DependentUpon>
     </Compile>
@@ -98,6 +101,10 @@
     <Page Include="ControlsSampleWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataBindingTwoWaySampleWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="DataBindingOneWaySampleWindow.xaml">
       <SubType>Designer</SubType>
