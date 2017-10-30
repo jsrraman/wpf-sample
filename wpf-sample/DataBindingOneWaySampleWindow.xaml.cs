@@ -15,13 +15,14 @@ using System.Windows.Shapes;
 namespace wpf_sample
 {
     /// <summary>
-    /// Interaction logic for DockPanelSample.xaml
+    /// Interaction logic for DataBindingOneWaySample.xaml
     /// </summary>
-    public partial class DockPanelSample : Window
+    public partial class DataBindingOneWaySampleWindow : Window
     {
-        public DockPanelSample()
+        public DataBindingOneWaySampleWindow()
         {
             InitializeComponent();
+            DataContext = Employee.GetEmployee();
         }
     }
 }

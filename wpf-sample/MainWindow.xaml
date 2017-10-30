@@ -5,5 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_sample"
         mc:Ignorable="d"
-        Title="Sample WPF" Height="768" Width="1024">
+        Title="Sample WPF" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <Button Name="GridSample" Content="Grid Sample" Click="OnGridSampleClick" Margin="5"/>
+            <Button Name="StackPanelSample" Content="Stack Panel Sample" Click="OnStackPanelSampleClick" Margin="5,0,5,5"/>
+            <Button Name="WrapPanelSample" Content="Wrap Panel Sample" Click="OnWrapPanelSampleClick" Margin="5,0,5,5"/>
+            <Button Name="DockPanelSample" Content="Dock Panel Sample" Click="OnDockPanelSampleClick" Margin="5,0,5,5"/>
+            <Button Name="ControlsSample" Content="Controls Sample" Click="OnControlsSampleClick" Margin="5,0,5,5"/>
+            <Button Name="CanvasSample" Content="Canvas Sample" Click="OnCanvasSampleClick" Margin="5,0,5,5"/>
+            <Button Name="DataBindingOneWaySample" Content="DataBinding One Way Sample" Click="OnDataBindingOneWaySampleClick" Margin="5,0,5,5"/>
+        </StackPanel>
+    </Grid>
 </Window>

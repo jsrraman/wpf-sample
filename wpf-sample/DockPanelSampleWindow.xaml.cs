@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace wpf_sample
 {
     /// <summary>
-    /// Interaction logic for CanvasSample.xaml
+    /// Interaction logic for DockPanelSample.xaml
     /// </summary>
-    public partial class CanvasSample : Window
+    public partial class DockPanelSampleWindow : Window
     {
-        public CanvasSample()
+        public DockPanelSampleWindow()
         {
             InitializeComponent();
         }

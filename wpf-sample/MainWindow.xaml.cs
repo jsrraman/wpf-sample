@@ -24,5 +24,47 @@ namespace wpf_sample
         {
             InitializeComponent();
         }
+
+        private void OnGridSampleClick(object sender, RoutedEventArgs e)
+        {
+            var window = new GridSampleWindow();
+            window.Show();
+        }
+
+        private void OnStackPanelSampleClick(object sender, RoutedEventArgs e)
+        {
+            var window = new StackPanelSampleWindow();
+            window.Show();
+        }
+
+        private void OnWrapPanelSampleClick(object sender, RoutedEventArgs e)
+        {
+            var window = new WrapPanelSampleWindow();
+            window.Show();
+        }
+
+        private void OnDockPanelSampleClick(object sender, RoutedEventArgs e)
+        {
+            var window = new DockPanelSampleWindow();
+            window.Show();
+        }
+
+        private void OnControlsSampleClick(object sender, RoutedEventArgs e)
+        {
+            var window = new ControlsSampleWindow();
+            window.Show();
+        }
+
+        private void OnCanvasSampleClick(object sender, RoutedEventArgs e)
+        {
+            var window = new CanvasSampleWindow();
+            window.Show();
+        }
+
+        private void OnDataBindingOneWaySampleClick(object sender, RoutedEventArgs e)
+        {
+            var window = new DataBindingOneWaySampleWindow();
+            window.Show();
+        }
     }
 }

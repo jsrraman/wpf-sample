@@ -17,9 +17,9 @@ namespace wpf_sample
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class GridSampleWindow : Window
     {
-        public Window1()
+        public GridSampleWindow()
         {
             InitializeComponent();
         }

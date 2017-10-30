@@ -69,34 +69,41 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="CanvasSample.xaml.cs">
-      <DependentUpon>CanvasSample.xaml</DependentUpon>
+    <Compile Include="CanvasSampleWindow.xaml.cs">
+      <DependentUpon>CanvasSampleWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ControlsSample.xaml.cs">
-      <DependentUpon>ControlsSample.xaml</DependentUpon>
+    <Compile Include="ControlsSampleWindow.xaml.cs">
+      <DependentUpon>ControlsSampleWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DockPanelSample.xaml.cs">
-      <DependentUpon>DockPanelSample.xaml</DependentUpon>
+    <Compile Include="DataBindingOneWaySampleWindow.xaml.cs">
+      <DependentUpon>DataBindingOneWaySampleWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DockPanelSampleWindow.xaml.cs">
+      <DependentUpon>DockPanelSampleWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Employee.cs" />
-    <Compile Include="GridSample.xaml.cs">
-      <DependentUpon>GridSample.xaml</DependentUpon>
+    <Compile Include="GridSampleWindow.xaml.cs">
+      <DependentUpon>GridSampleWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="StackPanelSample.xaml.cs">
-      <DependentUpon>StackPanelSample.xaml</DependentUpon>
+    <Compile Include="StackPanelSampleWindow.xaml.cs">
+      <DependentUpon>StackPanelSampleWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="WrapPanelSample.xaml.cs">
-      <DependentUpon>WrapPanelSample.xaml</DependentUpon>
+    <Compile Include="WrapPanelSampleWindow.xaml.cs">
+      <DependentUpon>WrapPanelSampleWindow.xaml</DependentUpon>
     </Compile>
-    <Page Include="CanvasSample.xaml">
+    <Page Include="CanvasSampleWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="ControlsSample.xaml">
+    <Page Include="ControlsSampleWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="DockPanelSample.xaml">
+    <Page Include="DataBindingOneWaySampleWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DockPanelSampleWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -112,15 +119,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="GridSample.xaml">
+    <Page Include="GridSampleWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="StackPanelSample.xaml">
+    <Page Include="StackPanelSampleWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="WrapPanelSample.xaml">
+    <Page Include="WrapPanelSampleWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
