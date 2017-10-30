@@ -19,10 +19,24 @@ namespace wpf_sample
     /// </summary>
     public partial class DataBindingOneWaySampleWindow : Window
     {
+        private Employee emp;
         public DataBindingOneWaySampleWindow()
         {
             InitializeComponent();
-            DataContext = Employee.GetEmployee();
+
+            emp = new Employee()
+            {
+                Name = "Rajaraman",
+                Title = "Developer"
+            };
+
+            DataContext = emp;
+        }
+
+        private void OnChangeEmployeeDataBindingClick(object sender, RoutedEventArgs e)
+        {
+            emp.Name = "Rajaraman Subramanian";
+            emp.Title = "Senior Developer";
         }
     }
 }
