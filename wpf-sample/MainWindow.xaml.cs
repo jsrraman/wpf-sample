@@ -84,5 +84,13 @@ namespace wpf_sample
             var window = new ElementBindingSampleWindow();
             window.Show();
         }
+
+        private void OnDataConvertorSampleClick(object sender, RoutedEventArgs e)
+        {
+            var window = new DataConvertorSampleWindow();
+            window.Show();
+        }
+
+        
     }
 }

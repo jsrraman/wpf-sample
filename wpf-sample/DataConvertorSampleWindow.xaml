@@ -1,0 +1,29 @@
+﻿<Window x:Class="wpf_sample.DataConvertorSampleWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_sample"
+        mc:Ignorable="d"
+        Title="DataConvertor Sample Window" Height="300" Width="300">
+    <Window.Resources>
+        <local:DateConvertor x:Key="DateConvertor"/>
+    </Window.Resources>
+    <Grid>
+        <StackPanel Name="Display">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Name: "/>
+                <TextBlock Margin="5,0,0,0" Text="{Binding Name}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Title: "/>
+                <TextBlock Margin="5,0,0,0" Text="{Binding Title}"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Start Date: "/>
+                <TextBlock Margin="5,0,0,0" 
+                           Text="{Binding StartDate, Converter={StaticResource DateConvertor}}"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

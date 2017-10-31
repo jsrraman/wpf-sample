@@ -11,6 +11,18 @@ namespace wpf_sample
 {
     public class Employee : INotifyPropertyChanged
     {
+        public Employee()
+        {
+
+        }
+
+        public Employee(string name, string title, DateTime startDate)
+        {
+            _name = name;
+            _title = title;
+            _startDate = startDate;
+        }
+
         private string _name;
         public string Name
         {
@@ -37,6 +49,17 @@ namespace wpf_sample
             set
             {
                 _title = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private DateTime _startDate;
+        public DateTime StartDate
+        {
+            get { return _startDate; }
+            set
+            {
+                _startDate = value;
                 OnPropertyChanged();
             }
         }
