@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -61,5 +62,15 @@ namespace wpf_sample
             return emp;
         }
 
+        public static ObservableCollection<Employee> GetEmployees()
+        {
+            var employees = new ObservableCollection<Employee>();
+
+            employees.Add(new Employee() { Name = "Rama", Title = "Developer" });
+            employees.Add(new Employee() { Name = "Krishna", Title = "Senior Developer" });
+            employees.Add(new Employee() { Name = "Govinda", Title = "Chief Developer" });
+
+            return employees;
+        }
     }
 }

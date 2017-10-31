@@ -91,6 +91,9 @@
     <Compile Include="StackPanelSampleWindow.xaml.cs">
       <DependentUpon>StackPanelSampleWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DataBindingListsSampleWindow.xaml.cs">
+      <DependentUpon>DataBindingListsSampleWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WrapPanelSampleWindow.xaml.cs">
       <DependentUpon>WrapPanelSampleWindow.xaml</DependentUpon>
     </Compile>
@@ -131,6 +134,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StackPanelSampleWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataBindingListsSampleWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

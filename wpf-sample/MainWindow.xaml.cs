@@ -72,5 +72,11 @@ namespace wpf_sample
             var window = new DataBindingTwoWaySampleWindow();
             window.Show();
         }
+
+        private void OnDataBindingListsSampleClick(object sender, RoutedEventArgs e)
+        {
+            var window = new DataBindingListsSampleWindow();
+            window.Show();
+        }
     }
 }
