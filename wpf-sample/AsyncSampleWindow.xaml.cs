@@ -32,7 +32,7 @@ namespace wpf_sample
 
             while (true)
             {
-                double sum = 0.0f;    
+                double sum = 0.0f;
 
                 await Task.Run(() =>
                 {

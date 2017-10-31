@@ -7,23 +7,28 @@
         mc:Ignorable="d"
         Title="Sample WPF" Height="350" Width="525">
     <Grid>
-        <StackPanel Orientation="Horizontal" Width="Auto">
-            <StackPanel>
-                <Button Name="GridSample" Content="Grid Sample" Click="OnGridSampleClick" Margin="5"/>
-                <Button Name="StackPanelSample" Content="Stack Panel Sample" Click="OnStackPanelSampleClick" Margin="5,0,5,5"/>
-                <Button Name="WrapPanelSample" Content="Wrap Panel Sample" Click="OnWrapPanelSampleClick" Margin="5,0,5,5"/>
-                <Button Name="DockPanelSample" Content="Dock Panel Sample" Click="OnDockPanelSampleClick" Margin="5,0,5,5"/>
-                <Button Name="ControlsSample" Content="Controls Sample" Click="OnControlsSampleClick" Margin="5,0,5,5"/>
-                <Button Name="CanvasSample" Content="Canvas Sample" Click="OnCanvasSampleClick" Margin="5,0,5,5"/>
-                <Button Name="DataBindingOneWaySample" Content="DataBinding One Way Sample" Click="OnDataBindingOneWaySampleClick" Margin="5,0,5,5"/>
-                <Button Name="DataBindingTwoWaySample" Content="DataBinding Two Way Sample" Click="OnDataBindingTwoWaySampleClick" Margin="5,0,5,5"/>
-                <Button Name="DataBindingListsSample" Content="DataBinding Lists Sample" Click="OnDataBindingListsSampleClick" Margin="5,0,5,5"/>
-                <Button Name="ElementBindingSample" Content="Element Binding Sample" Click="OnElementBindingSampleClick" Margin="5,0,5,5"/>
-            </StackPanel>
-            <StackPanel>
-                <Button Name="DataConvertorSample" Content="Data Convertor Sample" Click="OnDataConvertorSampleClick" Margin="5" />
-                <Button Name="AsyncSample" Content="Async Sample" Click="OnAsyncSampleClick" Margin="5" />
-            </StackPanel>
+        <StackPanel>
+            <GroupBox Header="Simple Controls">
+                <WrapPanel Margin="0,5,0,0">
+                    <Button Name="GridSample" Content="Grid Sample" Click="OnGridSampleClick" Margin="5"/>
+                    <Button Name="StackPanelSample" Content="Stack Panel Sample" Click="OnStackPanelSampleClick" Margin="5,0,5,5"/>
+                    <Button Name="WrapPanelSample" Content="Wrap Panel Sample" Click="OnWrapPanelSampleClick" Margin="5,0,5,5"/>
+                    <Button Name="DockPanelSample" Content="Dock Panel Sample" Click="OnDockPanelSampleClick" Margin="5,0,5,5"/>
+                    <Button Name="ControlsSample" Content="Controls Sample" Click="OnControlsSampleClick" Margin="5,0,5,5"/>
+                    <Button Name="CanvasSample" Content="Canvas Sample" Click="OnCanvasSampleClick" Margin="5,0,5,5"/>
+                    <Button Name="DataBindingOneWaySample" Content="DataBinding One Way Sample" Click="OnDataBindingOneWaySampleClick" Margin="5,0,5,5"/>
+                    <Button Name="DataBindingTwoWaySample" Content="DataBinding Two Way Sample" Click="OnDataBindingTwoWaySampleClick" Margin="5,0,5,5"/>
+                    <Button Name="DataBindingListsSample" Content="DataBinding Lists Sample" Click="OnDataBindingListsSampleClick" Margin="5,0,5,5"/>
+                    <Button Name="ElementBindingSample" Content="Element Binding Sample" Click="OnElementBindingSampleClick" Margin="5,0,5,5"/>
+                    <Button Name="DataConvertorSample" Content="Data Convertor Sample" Click="OnDataConvertorSampleClick" Margin="5,0,5,5" />
+                </WrapPanel>
+            </GroupBox>
+
+            <GroupBox Header="Async Demo">
+                <WrapPanel Margin="0,5,0,0">
+                    <Button Name="AsyncSample" Content="Async Sample" Click="OnAsyncSampleClick" Margin="5" />
+                </WrapPanel>
+            </GroupBox>
         </StackPanel>
     </Grid>
 </Window>
