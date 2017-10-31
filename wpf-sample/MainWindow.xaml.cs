@@ -78,5 +78,11 @@ namespace wpf_sample
             var window = new DataBindingListsSampleWindow();
             window.Show();
         }
+
+        private void OnElementBindingSampleClick(object sender, RoutedEventArgs e)
+        {
+            var window = new ElementBindingSampleWindow();
+            window.Show();
+        }
     }
 }

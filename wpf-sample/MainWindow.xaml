@@ -21,6 +21,7 @@
             <Button Name="DataBindingOneWaySample" Content="DataBinding One Way Sample" Click="OnDataBindingOneWaySampleClick" Margin="5,0,5,5"/>
             <Button Name="DataBindingTwoWaySample" Content="DataBinding Two Way Sample" Click="OnDataBindingTwoWaySampleClick" Margin="5,0,5,5"/>
             <Button Name="DataBindingListsSample" Content="DataBinding Lists Sample" Click="OnDataBindingListsSampleClick" Margin="5,0,5,5"/>
+            <Button Name="ElementBindingSample" Content="Element Binding Sample" Click="OnElementBindingSampleClick" Margin="5,0,5,5"/>
         </StackPanel>
     </Grid>
 </Window>
