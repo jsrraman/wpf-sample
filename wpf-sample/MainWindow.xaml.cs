@@ -91,6 +91,10 @@ namespace wpf_sample
             window.Show();
         }
 
-        
+        private void OnAsyncSampleClick(object sender, RoutedEventArgs e)
+        {
+            var window = new AsyncSampleWindow();
+            window.Show();
+        }
     }
 }

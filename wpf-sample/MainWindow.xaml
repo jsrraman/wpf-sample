@@ -22,6 +22,7 @@
             </StackPanel>
             <StackPanel>
                 <Button Name="DataConvertorSample" Content="Data Convertor Sample" Click="OnDataConvertorSampleClick" Margin="5" />
+                <Button Name="AsyncSample" Content="Async Sample" Click="OnAsyncSampleClick" Margin="5" />
             </StackPanel>
         </StackPanel>
     </Grid>
